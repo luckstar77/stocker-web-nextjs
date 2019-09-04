@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import Nav from '../components/nav'
+import Button from '@material-ui/core/Button';
 
 const Home = () => (
   <div>
@@ -37,6 +38,9 @@ const Home = () => (
           </a>
         </Link>
       </div>
+      <Button variant="contained" color="primary">
+        Hello World
+      </Button>
     </div>
 
     <style jsx>{`
